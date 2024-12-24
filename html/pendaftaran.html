@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+    <form action="" method="post">
+        <label for="nama">nama: </label>
+        <input type="text" id="nama" name="nama" required placeholder="masukkan nama">
+
+        <label for="email">email : </label>
+        <input type="email" id="email" name="email" required placeholder="masukkan email">
+
+        <label for="nomor">nomor telepon : </label>
+        <input type="tel" id="nomor" name="nomor" required placeholder="nomor telepon">
+
+        <label for="tanggal">tanggal lahir </label>
+        <input type="date" id="tanggal" name="tanggal" required>
+
+        <label for="jenis_kelamin">jenis_kelamin</label>
+        <select name="jenis_kelamin" id="jenis_kelamin" required>
+            <option value="">pilih jenis kelamin</option>
+            <option value="laki-laki">laki-laki</option>
+            <option value="perempuan">perempuan</option>
+        </select>
+
+        <label>status :</label>
+        <div class="radio-group">
+            <input type="radio" id="pelajar" name="status" value="pelajar">
+            <label for="pelajar">pelajar</label>
+            
+            <input type="radio" id="pelajar" name="status" value="pelajar">
+            <label for="mahasiswa">mahasiswa</label>
+            
+            <input type="radio" id="pelajar" name="status" value="pelajar">
+            <label for="pekerja">pekerja</label>
+            
+
+        </div>
+       
+        <label for="name">pesan dan komentar</label>
+        <textarea name="komentar" id="komentar"  rows="4" placeholder="tulliskan komentar"></textarea>
+        <button type="submit">kirim</button>
+    </form>
+</div>
+</body>
+</html>

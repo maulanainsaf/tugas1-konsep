@@ -1,0 +1,82 @@
+
+:root {
+  --primary: #53aaac;
+}
+* {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #add;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: rgb(5, 78, 72);
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+button{
+  width: 100%;
+  padding: 10px;
+  background-color: #acafac;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.radio-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.container {
+  margin: 50px;
+}
+
+ 
+
+
+/* media responsive */
+/* laptop */
+@media (max-width: 1366px){
+  html{
+    font-size: 75%;
+  }
+}
+/* tablet */
+@media (max-width: 768px){
+  html{
+    font-size: 65.5%;
+  }
+}
+/* hanphone */
+@media (max-width: 450px){
+  html{
+    font-size: 55%;
+
+  }
+}
